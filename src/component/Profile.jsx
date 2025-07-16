@@ -1,10 +1,11 @@
 import React from "react";
+import profileImg from "./assest/git.jpeg"
  
 
 function Profile(){
     return(
         <div className="container flex flex-col mx-auto top-0 mt-32 justify-center items-center my-12 ">
-            <img src="./src/assets/git.jpeg" alt="" className="w-48 h-48 rounded-full object-cover justify-self-center" />
+            <img src="{profileImg}" alt="" className="w-48 h-48 rounded-full object-cover justify-self-center" />
            <div>
              <h1 className="text-3xl text-start  mt-4 md:text-4xl  leading-tight font-bold  md:text-center inline-block max-w-3xl mx-auto px-4   ">
                 <span className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent">I'm Olatunji Peter,
