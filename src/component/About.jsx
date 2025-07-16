@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../assest/profile-img.jpeg"
+import aboutImg from "../asset/profile-img.jpeg"
 
 function About(){
     return(
@@ -7,7 +7,7 @@ function About(){
             <div ><h1 className=" md:text-3xl font-bold text-center mb-12">About Me</h1>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 px-6   grid-rows-2 gap-8">
-                <div className="row-span-2 flex justify-center md:justify-center"><img className="w-64 h-80 object-cover rounded-xl shadow-xl" src={aboutImg} alt=""/>
+                <div className="row-span-2 flex justify-center md:justify-center"><img className="w-64 h-80 object-cover rounded-xl shadnow-xl" src={aboutImg} alt=""/>
                 </div>
                 <div className="space-y-1 text-gray-700 text-base leading-relaxed">
                     <p>I'm an aspiring Frontend Developer passionate about building clean and responsive websites.</p>
