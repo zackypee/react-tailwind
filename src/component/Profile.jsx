@@ -1,5 +1,5 @@
 import React from "react";
-import profileImg from "./assest/git.jpeg"
+import profileImg from "../assest/git.jpeg"
  
 
 function Profile(){
