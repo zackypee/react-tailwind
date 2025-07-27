@@ -22,11 +22,11 @@ function Contact(){
                     </div>
                      <div className="flex gap-2 mt-4 items-center">
                         <MdPhone className="text-xl text-blue-600" />
-                        <p>Zackypee@gmail.com</p>
+                        <p>+2347012349809</p>
                     </div>
                      <div className="flex gap-2 mt-4 items-center">
                         <MdLocationOn className="text-xl text-blue-600" />
-                        <p>Zackypee@gmail.com</p>
+                        <p>Lagos, Nigeria</p>
                     </div>
                 </div>
                 <div className=" md:w-1/2 w-full">
@@ -45,7 +45,7 @@ function Contact(){
                         </label>
 
                     </form>
-                    <button className="bg-blue-600 text-white px-2 py-2 rounded hover:bg-blue-700 transition">
+                    <button className="bg-blue-600 text-white px-2 py-2 rounded hover:bg-blue-700 transition mt-4">
                         submit now
                     </button>
                 </div>
