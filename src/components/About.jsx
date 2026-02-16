@@ -5,9 +5,9 @@ import aboutImg from "../assets/profile-img.jpeg"
 function About(){
     const skills = [
         { name: "HTML & CSS", level: 80 },
-        { name: "JavaScript", level: 40 },
-        { name: "React JS", level: 20 },
-        { name: "Tailwind", level: 40 }
+        { name: "JavaScript", level: 70 },
+        { name: "React JS", level: 60 },
+        { name: "Tailwind", level: 80 }
     ];
 
     const containerVariants = {
@@ -67,21 +67,20 @@ function About(){
                   className="space-y-4 text-gray-700 dark:text-gray-300 text-base leading-relaxed"
                   variants={containerVariants}
                 >
-                    {[
-                      "I'm an aspiring Frontend Developer passionate about building clean and responsive websites.",
-                      "I'm focused on building real-world projects that showcase clarity and creativity.",
-                      "My goal is not just to write code, but to create digital experiences that are intuitive and enjoyable for users.",
-                      "I enjoy working with React JS and Tailwind CSS, and I'm always looking for ways to grow and contribute."
-                    ].map((text, index) => (
-                      <motion.p 
-                        key={index}
-                        variants={itemVariants}
-                        whileHover={{ x: 10, color: "rgb(59, 130, 246)" }}
-                        transition={{ duration: 0.2 }}
-                      >
-                        {text}
-                      </motion.p>
-                    ))}
+                    <motion.p 
+                      variants={itemVariants}
+                      whileHover={{ x: 10, color: "rgb(59, 130, 246)" }}
+                      transition={{ duration: 0.2 }}
+                    >
+                      I'm a Frontend Developer with 1+ year of experience building modern, responsive web applications. I specialize in JavaScript, React and Tailwind CSS, creating interfaces that are both visually appealing and highly functional.
+                    </motion.p>
+                    <motion.p 
+                      variants={itemVariants}
+                      whileHover={{ x: 10, color: "rgb(59, 130, 246)" }}
+                      transition={{ duration: 0.2 }}
+                    >
+                      I'm driven by the challenge of turning complex problems into elegant solutions, always keeping the user experience at the forefront of my work.
+                    </motion.p>
                 </motion.div>
                 
                 <motion.div 

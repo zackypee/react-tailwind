@@ -40,7 +40,7 @@ function Profile(){
                   I'm Olatunji Peter,
                 </span>{" "}
                 <span className="text-gray-900 dark:text-white">
-                  Aspiring Front-end Developer based in Nigeria.
+                  Frontend Developer crafting beautiful web experiences.
                 </span>
               </h1>
               <p className="md:text-center text-start px-4 mt-4 text-gray-600 dark:text-gray-300">
